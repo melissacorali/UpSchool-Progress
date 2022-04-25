@@ -1,8 +1,8 @@
 
 # Araştırma Ödevi 1 
-Lateinit neden kullanıyoruz?
-Lateinit kullanımından bahseder misiniz?
-Lateinit için bir örnek kullanım gösterir misiniz ?
+- Lateinit neden kullanıyoruz?
+- Lateinit kullanımından bahseder misiniz?
+- Lateinit için bir örnek kullanım gösterir misiniz ?
 
 # Cevap:
 Lateinit geç başlatma anlamına gelir. Yapıcıda bir değişken başlatmak istemiyorsanız, onu daha sonra başlatmak istiyorsanız ve
@@ -24,11 +24,15 @@ class MainActivity : AppCompatActivity() {
         
 
 # Araştırma Ödevi 2
-Layout dizini içinde xml dosyalarımız için kullandığımız namespace nedir ?
-Neden kullanılmaktadır ?
-Nasıl kullanılmalıdır ?
+- Layout dizini içinde xml dosyalarımız için kullandığımız namespace nedir ?
+- Neden kullanılmaktadır ?
+- Nasıl kullanılmalıdır ?
 Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ?
 # Cevaplar:
 XMl, insanlar ve bilgi işletim sistemleri tarafından kolayca okunabilir dökümanlar hazırlamaya yarayan bir işaretleme dilidir.
 XMl dosyasında namespace kullanmamızın temel amacı, Uygulamanın xml tarafındaki değşikliklerini anlık olarak, derlenmeden görülmesini sağlar. 
 xmlns:tools="http://schemas.android.com/tools" > şeklinde kullanabiliriz.
+
+# Araştırma Ödevi 3
+- Font family dosyası nasıl oluşturulup kullanıyoruz?
+- Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
