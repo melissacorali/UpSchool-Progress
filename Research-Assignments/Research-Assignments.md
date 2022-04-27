@@ -60,3 +60,13 @@ Font.xml dosyamızda fontu seçerek istediğimiz özellikleri verebiliriz.
 ```
 ![Ekran Görüntüsü (11)](https://user-images.githubusercontent.com/55882459/165593063-93e12505-3e77-4b60-8e12-529201e5b351.png)
 
+# Araştırma Ödevi 4
+- Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
+# Cevaplar:
+Animasyonlar, kullanıcıları uygulamanızda olup bitenler hakkında bilgilendiren görsel ipuçları ekleyebilir.
+
+Property Animation: belirli bir süre boyunca bir nesnenin özellik değerlerini değiştirerek bir animasyon oluşturur.
+
+objectAnimator: ValueAnimator'ın bir alt sınıfıdır. Belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. Bir başlangıç ve bitiş değeri vererek bu aralıkta animasyon uygulayabiliriz.
+
+
