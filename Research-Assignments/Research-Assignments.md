@@ -36,3 +36,25 @@ xmlns:tools="http://schemas.android.com/tools" > şeklinde kullanabiliriz.
 # Araştırma Ödevi 3
 - Font family dosyası nasıl oluşturulup kullanıyoruz?
 - Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
+# Cevaplar:
+
+Font kaynağı, uygulamamızda istediğimiz çeşitlilikte yazı tipi kullanabilmemizi sağlar.Yazı tipi kaynaklarına yeni bir kaynak türü yardımıyla erişebiliriz. Font kaynağı kullanabilmemiz için öncelikle bulduğumuz ttf ve ya otf fontları projeye eklemeliyiz. Eklemek için öncelikle;
+- res klasörüne sağ tıklayın ve Yeni > Android kaynak dizini'ne gidin .
+Yeni Kaynak Dizini penceresi görünür.
+-Resource file listesinde yazı tipini seçip tamam deriz.
+-yazı tipi dosyalarımızı font klasörüne ekleriz.
+
+
+![Ekran Görüntüsü (12)](https://user-images.githubusercontent.com/55882459/165592467-eb7891a9-cda2-4df0-8b03-38687e3370e7.png)
+
+Font.xml dosyamızda fontu seçerek istediğimiz özellikleri verebiliriz.
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:font="@font/Papernotes"
+        android:fontWeight="400" />
+
+</font-family>
+![Ekran Görüntüsü (10)](https://user-images.githubusercontent.com/55882459/165592544-7a13f166-5172-46d0-9cad-f73ee36078f1.png)
+
