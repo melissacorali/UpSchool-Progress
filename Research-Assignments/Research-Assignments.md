@@ -58,4 +58,5 @@ Font.xml dosyamızda fontu seçerek istediğimiz özellikleri verebiliriz.
 
 </font-family>
 ```
+![Ekran Görüntüsü (11)](https://user-images.githubusercontent.com/55882459/165593063-93e12505-3e77-4b60-8e12-529201e5b351.png)
 
