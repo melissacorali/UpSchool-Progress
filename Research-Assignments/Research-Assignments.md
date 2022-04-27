@@ -48,7 +48,7 @@ Yeni Kaynak Dizini penceresi görünür.
 ![Ekran Görüntüsü (12)](https://user-images.githubusercontent.com/55882459/165592467-eb7891a9-cda2-4df0-8b03-38687e3370e7.png)
 
 Font.xml dosyamızda fontu seçerek istediğimiz özellikleri verebiliriz.
-
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
     <font
@@ -57,5 +57,5 @@ Font.xml dosyamızda fontu seçerek istediğimiz özellikleri verebiliriz.
         android:fontWeight="400" />
 
 </font-family>
-
+```
 
