@@ -13,6 +13,7 @@ class StartActivity : AppCompatActivity(), View.OnClickListener {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_start)
         super.onCreate(savedInstanceState)
         binding.button.setOnClickListener(this)
+
        // setContentView(R.layout.activity_start)
     }
 

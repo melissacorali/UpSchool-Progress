@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         //setContentView(R.layout.activity_main)
         binding.button.setOnClickListener(this)
+
     }
 
     override fun onClick(p0: View?) {
